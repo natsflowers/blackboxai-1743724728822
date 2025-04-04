@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Social Sandbox - AI-Powered Social Skills Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .logo-icon {
+            font-size: 2rem;
+            color: #FFD700;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <i class="fas fa-puzzle-piece logo-icon"></i>
+                    <span class="text-xl font-bold">The Social Sandbox</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-orange-500">Features</a>
+                    <a href="#technology" class="text-gray-700 hover:text-orange-500">Technology</a>
+                    <a href="#business" class="text-gray-700 hover:text-orange-500">Business Model</a>
+                    <button class="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-b from-white to-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                        Level Up Your <span class="gradient-text">Social Skills</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        An AI-powered role-playing game that transforms social learning through interactive scenarios and chaos challenges.
+                    </p>
+                    <div class="flex space-x-4">
+                        <button class="bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition">Try Demo</button>
+                        <button class="border-2 border-orange-500 text-orange-500 px-8 py-3 rounded-full hover:bg-orange-50 transition">Learn More</button>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="w-full max-w-md p-8 bg-white rounded-xl shadow-lg">
+                        <div class="aspect-w-1 aspect-h-1 bg-gradient-to-br from-orange-100 to-yellow-50 rounded-lg p-8">
+                            <i class="fas fa-gamepad text-6xl text-orange-500 mx-auto block text-center mb-4"></i>
+                            <p class="text-center text-gray-600">Interactive Game Preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Key Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:-translate-y-1 transition">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">AI-Powered Interactions</h3>
+                    <p class="text-gray-600">Personalized dialogue and consequences based on your choices and learning style.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:-translate-y-1 transition">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Chaos Challenges</h3>
+                    <p class="text-gray-600">Random social disruptions that test your adaptability and quick thinking.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:-translate-y-1 transition">
+                    <div class="text-orange-500 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Multiplayer Learning</h3>
+                    <p class="text-gray-600">Collaborate and compete with others in real-time social scenarios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Cutting-Edge Technology</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-6">AI & Adaptive Learning</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Real-time response analysis</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Personalized learning paths</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Dynamic scenario generation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-6">Cloud & Mobile</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Cross-platform compatibility</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Real-time multiplayer support</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>AR integration ready</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Model Section -->
+    <section id="business" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Business Solutions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-500">
+                    <h3 class="text-xl font-semibold mb-4">Education</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✓ School licensing packages</li>
+                        <li>✓ Student progress tracking</li>
+                        <li>✓ Customized curriculum</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500">
+                    <h3 class="text-xl font-semibold mb-4">Corporate</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✓ Team building modules</li>
+                        <li>✓ Leadership training</li>
+                        <li>✓ HR development tools</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-purple-500">
+                    <h3 class="text-xl font-semibold mb-4">Individual</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✓ Freemium access</li>
+                        <li>✓ Premium features</li>
+                        <li>✓ Personal analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-gradient-to-r from-orange-500 to-yellow-500">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-8">Ready to Transform Social Learning?</h2>
+            <p class="text-white text-xl mb-8">Join thousands of users already enhancing their social skills</p>
+            <button class="bg-white text-orange-500 px-8 py-3 rounded-full hover:bg-gray-100 transition">Get Started Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">The Social Sandbox</h4>
+                    <p class="text-gray-400">Transforming social skills through AI-powered gaming</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#features" class="hover:text-white">Features</a></li>
+                        <li><a href="#technology" class="hover:text-white">Technology</a></li>
+                        <li><a href="#business" class="hover:text-white">Business</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>info@socialsandbox.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 The Social Sandbox. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
